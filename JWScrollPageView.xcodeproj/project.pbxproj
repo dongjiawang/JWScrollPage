@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ABBEA551DD41C3100A80DE9 /* UIViewController+jwScrollPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBEA541DD41C3100A80DE9 /* UIViewController+jwScrollPageViewController.m */; };
+		7ABBEA581DD41F1F00A80DE9 /* JWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBEA571DD41F1F00A80DE9 /* JWCollectionView.m */; };
+		7ABBEA5B1DD4256900A80DE9 /* JWContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBEA5A1DD4256900A80DE9 /* JWContentView.m */; };
+		7ABBEA681DD4787600A80DE9 /* JWScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBEA671DD4787600A80DE9 /* JWScrollPageView.m */; };
+		7ABBEA6D1DD558FA00A80DE9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBEA6C1DD558FA00A80DE9 /* TestViewController.m */; };
+		7ABBEA701DD5634500A80DE9 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBEA6F1DD5634500A80DE9 /* TestTableViewController.m */; };
+		7ABBEA731DD5B89100A80DE9 /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBEA721DD5B89100A80DE9 /* TestCollectionViewController.m */; };
+		7CAB3B881DD2B320001DE7C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB3B871DD2B320001DE7C3 /* main.m */; };
+		7CAB3B8B1DD2B320001DE7C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB3B8A1DD2B320001DE7C3 /* AppDelegate.m */; };
+		7CAB3B8E1DD2B320001DE7C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB3B8D1DD2B320001DE7C3 /* ViewController.m */; };
+		7CAB3B931DD2B320001DE7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB3B921DD2B320001DE7C3 /* Assets.xcassets */; };
+		7CAB3B961DD2B320001DE7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB3B941DD2B320001DE7C3 /* LaunchScreen.storyboard */; };
+		7CAB3BAB1DD2BBD6001DE7C3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB3BAA1DD2BBD6001DE7C3 /* UIView+Frame.m */; };
+		7CAB3BAE1DD2BE09001DE7C3 /* JWTagStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB3BAD1DD2BE09001DE7C3 /* JWTagStyle.m */; };
+		7CAB3BB91DD2BEFB001DE7C3 /* JWScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB3BB61DD2BEFB001DE7C3 /* JWScrollSegmentView.m */; };
+		7CAB3BBA1DD2BEFB001DE7C3 /* JWTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB3BB81DD2BEFB001DE7C3 /* JWTagView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7ABBEA531DD41C3100A80DE9 /* UIViewController+jwScrollPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+jwScrollPageViewController.h"; path = "JWScrollPageView/UIViewController+jwScrollPageViewController.h"; sourceTree = "<group>"; };
+		7ABBEA541DD41C3100A80DE9 /* UIViewController+jwScrollPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+jwScrollPageViewController.m"; path = "JWScrollPageView/UIViewController+jwScrollPageViewController.m"; sourceTree = "<group>"; };
+		7ABBEA561DD41F1F00A80DE9 /* JWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWCollectionView.h; path = JWScrollPageView/JWCollectionView.h; sourceTree = "<group>"; };
+		7ABBEA571DD41F1F00A80DE9 /* JWCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWCollectionView.m; path = JWScrollPageView/JWCollectionView.m; sourceTree = "<group>"; };
+		7ABBEA591DD4256900A80DE9 /* JWContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWContentView.h; path = JWScrollPageView/JWContentView.h; sourceTree = "<group>"; };
+		7ABBEA5A1DD4256900A80DE9 /* JWContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWContentView.m; path = JWScrollPageView/JWContentView.m; sourceTree = "<group>"; };
+		7ABBEA661DD4787600A80DE9 /* JWScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWScrollPageView.h; path = JWScrollPageView/JWScrollPageView.h; sourceTree = "<group>"; };
+		7ABBEA671DD4787600A80DE9 /* JWScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWScrollPageView.m; path = JWScrollPageView/JWScrollPageView.m; sourceTree = "<group>"; };
+		7ABBEA6B1DD558FA00A80DE9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7ABBEA6C1DD558FA00A80DE9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		7ABBEA6E1DD5634500A80DE9 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestTableViewController.h; path = ../TestTableViewController.h; sourceTree = "<group>"; };
+		7ABBEA6F1DD5634500A80DE9 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestTableViewController.m; path = ../TestTableViewController.m; sourceTree = "<group>"; };
+		7ABBEA711DD5B89100A80DE9 /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestCollectionViewController.h; path = ../TestCollectionViewController.h; sourceTree = "<group>"; };
+		7ABBEA721DD5B89100A80DE9 /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestCollectionViewController.m; path = ../TestCollectionViewController.m; sourceTree = "<group>"; };
+		7CAB3B831DD2B320001DE7C3 /* JWScrollPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWScrollPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAB3B871DD2B320001DE7C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CAB3B891DD2B320001DE7C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CAB3B8A1DD2B320001DE7C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CAB3B8C1DD2B320001DE7C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CAB3B8D1DD2B320001DE7C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CAB3B921DD2B320001DE7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CAB3B951DD2B320001DE7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CAB3B971DD2B320001DE7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAB3BA91DD2BBD6001DE7C3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "JWScrollPageView/UIView+Frame.h"; sourceTree = "<group>"; };
+		7CAB3BAA1DD2BBD6001DE7C3 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "JWScrollPageView/UIView+Frame.m"; sourceTree = "<group>"; };
+		7CAB3BAC1DD2BE09001DE7C3 /* JWTagStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWTagStyle.h; path = JWScrollPageView/JWTagStyle.h; sourceTree = "<group>"; };
+		7CAB3BAD1DD2BE09001DE7C3 /* JWTagStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWTagStyle.m; path = JWScrollPageView/JWTagStyle.m; sourceTree = "<group>"; };
+		7CAB3BB51DD2BEFB001DE7C3 /* JWScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWScrollSegmentView.h; path = JWScrollPageView/JWScrollSegmentView.h; sourceTree = "<group>"; };
+		7CAB3BB61DD2BEFB001DE7C3 /* JWScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWScrollSegmentView.m; path = JWScrollPageView/JWScrollSegmentView.m; sourceTree = "<group>"; };
+		7CAB3BB71DD2BEFB001DE7C3 /* JWTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWTagView.h; path = JWScrollPageView/JWTagView.h; sourceTree = "<group>"; };
+		7CAB3BB81DD2BEFB001DE7C3 /* JWTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWTagView.m; path = JWScrollPageView/JWTagView.m; sourceTree = "<group>"; };
+		7CAB3BBB1DD2BF43001DE7C3 /* JWScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWScrollPageViewDelegate.h; path = JWScrollPageView/JWScrollPageViewDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CAB3B801DD2B320001DE7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CAB3B7A1DD2B320001DE7C3 = {
+			isa = PBXGroup;
+			children = (
+				7CAB3B851DD2B320001DE7C3 /* JWScrollPageView */,
+				7CAB3B841DD2B320001DE7C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CAB3B841DD2B320001DE7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB3B831DD2B320001DE7C3 /* JWScrollPageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CAB3B851DD2B320001DE7C3 /* JWScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB3B9D1DD2B3D9001DE7C3 /* JWScrollPageView */,
+				7CAB3B891DD2B320001DE7C3 /* AppDelegate.h */,
+				7CAB3B8A1DD2B320001DE7C3 /* AppDelegate.m */,
+				7CAB3B8C1DD2B320001DE7C3 /* ViewController.h */,
+				7CAB3B8D1DD2B320001DE7C3 /* ViewController.m */,
+				7CAB3B921DD2B320001DE7C3 /* Assets.xcassets */,
+				7CAB3B941DD2B320001DE7C3 /* LaunchScreen.storyboard */,
+				7CAB3B971DD2B320001DE7C3 /* Info.plist */,
+				7CAB3B861DD2B320001DE7C3 /* Supporting Files */,
+				7ABBEA6B1DD558FA00A80DE9 /* TestViewController.h */,
+				7ABBEA6C1DD558FA00A80DE9 /* TestViewController.m */,
+				7ABBEA6E1DD5634500A80DE9 /* TestTableViewController.h */,
+				7ABBEA6F1DD5634500A80DE9 /* TestTableViewController.m */,
+				7ABBEA711DD5B89100A80DE9 /* TestCollectionViewController.h */,
+				7ABBEA721DD5B89100A80DE9 /* TestCollectionViewController.m */,
+			);
+			path = JWScrollPageView;
+			sourceTree = "<group>";
+		};
+		7CAB3B861DD2B320001DE7C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB3B871DD2B320001DE7C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CAB3B9D1DD2B3D9001DE7C3 /* JWScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB3BA91DD2BBD6001DE7C3 /* UIView+Frame.h */,
+				7CAB3BAA1DD2BBD6001DE7C3 /* UIView+Frame.m */,
+				7CAB3BAC1DD2BE09001DE7C3 /* JWTagStyle.h */,
+				7CAB3BAD1DD2BE09001DE7C3 /* JWTagStyle.m */,
+				7CAB3BB71DD2BEFB001DE7C3 /* JWTagView.h */,
+				7CAB3BB81DD2BEFB001DE7C3 /* JWTagView.m */,
+				7CAB3BB51DD2BEFB001DE7C3 /* JWScrollSegmentView.h */,
+				7CAB3BB61DD2BEFB001DE7C3 /* JWScrollSegmentView.m */,
+				7ABBEA531DD41C3100A80DE9 /* UIViewController+jwScrollPageViewController.h */,
+				7ABBEA541DD41C3100A80DE9 /* UIViewController+jwScrollPageViewController.m */,
+				7ABBEA561DD41F1F00A80DE9 /* JWCollectionView.h */,
+				7ABBEA571DD41F1F00A80DE9 /* JWCollectionView.m */,
+				7ABBEA591DD4256900A80DE9 /* JWContentView.h */,
+				7ABBEA5A1DD4256900A80DE9 /* JWContentView.m */,
+				7CAB3BBB1DD2BF43001DE7C3 /* JWScrollPageViewDelegate.h */,
+				7ABBEA661DD4787600A80DE9 /* JWScrollPageView.h */,
+				7ABBEA671DD4787600A80DE9 /* JWScrollPageView.m */,
+			);
+			name = JWScrollPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CAB3B821DD2B320001DE7C3 /* JWScrollPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAB3B9A1DD2B320001DE7C3 /* Build configuration list for PBXNativeTarget "JWScrollPageView" */;
+			buildPhases = (
+				7CAB3B7F1DD2B320001DE7C3 /* Sources */,
+				7CAB3B801DD2B320001DE7C3 /* Frameworks */,
+				7CAB3B811DD2B320001DE7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWScrollPageView;
+			productName = JWScrollPageView;
+			productReference = 7CAB3B831DD2B320001DE7C3 /* JWScrollPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CAB3B7B1DD2B320001DE7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DJW;
+				TargetAttributes = {
+					7CAB3B821DD2B320001DE7C3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 55L89582PS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CAB3B7E1DD2B320001DE7C3 /* Build configuration list for PBXProject "JWScrollPageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CAB3B7A1DD2B320001DE7C3;
+			productRefGroup = 7CAB3B841DD2B320001DE7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CAB3B821DD2B320001DE7C3 /* JWScrollPageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CAB3B811DD2B320001DE7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAB3B961DD2B320001DE7C3 /* LaunchScreen.storyboard in Resources */,
+				7CAB3B931DD2B320001DE7C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CAB3B7F1DD2B320001DE7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAB3BAB1DD2BBD6001DE7C3 /* UIView+Frame.m in Sources */,
+				7ABBEA5B1DD4256900A80DE9 /* JWContentView.m in Sources */,
+				7ABBEA701DD5634500A80DE9 /* TestTableViewController.m in Sources */,
+				7CAB3BBA1DD2BEFB001DE7C3 /* JWTagView.m in Sources */,
+				7ABBEA731DD5B89100A80DE9 /* TestCollectionViewController.m in Sources */,
+				7CAB3BAE1DD2BE09001DE7C3 /* JWTagStyle.m in Sources */,
+				7CAB3B8E1DD2B320001DE7C3 /* ViewController.m in Sources */,
+				7ABBEA551DD41C3100A80DE9 /* UIViewController+jwScrollPageViewController.m in Sources */,
+				7ABBEA6D1DD558FA00A80DE9 /* TestViewController.m in Sources */,
+				7CAB3B8B1DD2B320001DE7C3 /* AppDelegate.m in Sources */,
+				7ABBEA581DD41F1F00A80DE9 /* JWCollectionView.m in Sources */,
+				7CAB3BB91DD2BEFB001DE7C3 /* JWScrollSegmentView.m in Sources */,
+				7ABBEA681DD4787600A80DE9 /* JWScrollPageView.m in Sources */,
+				7CAB3B881DD2B320001DE7C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CAB3B941DD2B320001DE7C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAB3B951DD2B320001DE7C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CAB3B981DD2B320001DE7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CAB3B991DD2B320001DE7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CAB3B9B1DD2B320001DE7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55L89582PS;
+				INFOPLIST_FILE = JWScrollPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = djw.JWScrollPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CAB3B9C1DD2B320001DE7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55L89582PS;
+				INFOPLIST_FILE = JWScrollPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = djw.JWScrollPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CAB3B7E1DD2B320001DE7C3 /* Build configuration list for PBXProject "JWScrollPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAB3B981DD2B320001DE7C3 /* Debug */,
+				7CAB3B991DD2B320001DE7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CAB3B9A1DD2B320001DE7C3 /* Build configuration list for PBXNativeTarget "JWScrollPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAB3B9B1DD2B320001DE7C3 /* Debug */,
+				7CAB3B9C1DD2B320001DE7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CAB3B7B1DD2B320001DE7C3 /* Project object */;
+}
