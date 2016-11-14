@@ -15,7 +15,7 @@
 > 标签样式的类，
 > 是否滚动条、是否遮盖、缩放，文字颜色等等
 
-```objectivec
+```objc
 /**
  是否显示遮盖 默认为 NO
  */
@@ -158,7 +158,7 @@
 
 ## 外部一个控制器，包含标签页和各个标签的子控制器##
 
-```objectivec
+```objc
 self.tagArray = @[@"标题 1",
                       @"标题 2",
                       @"标题 3",
@@ -176,7 +176,7 @@ self.tagArray = @[@"标题 1",
 ```
 
 ##重写这个方法。并返回 NO ，这样所有子控制器的 view 的生命周期方法会被正确调用##
-```objectivec
+```objc
 - (BOOL)shouldAutomaticallyForwardAppearanceMethods {
     return NO;
 }
@@ -184,7 +184,7 @@ self.tagArray = @[@"标题 1",
 
 ## 返回标签和子控制器的个数##
 
-```objectivec
+```objective-c
 - (NSInteger)numberOfChildViewControllers {
     return self.tagArray.count;
 }
@@ -192,7 +192,7 @@ self.tagArray = @[@"标题 1",
 
 ## 获取或生成对应标签下标的子控制器##
 
-```objectivec
+```objc
 - (UIViewController<JWScrollPageChildVCDelegate> *)childViewController:(UIViewController<JWScrollPageChildVCDelegate> *)childViewController forIndex:(NSInteger)index {
     
     UIViewController<JWScrollPageChildVCDelegate> *childVC = childViewController;

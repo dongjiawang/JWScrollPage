@@ -158,8 +158,8 @@
     self.style.adjustTagWhenBeginDrag = self.adjustTagWhenBeginDragSwitch.on;
     self.style.adjustCoverAndLineWidth = self.adjustCoverAndLineWidthSwitch.on;
     
-//    self.style.normalTitleColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0];
-//    self.style.selectedTitleColor = [UIColor colorWithRed:1 green:0.5 blue:0 alpha:1.0];
+//    self.style.normalTitleColor = [UIColor colorWithRed:100.0/255.0 green:80/255.0 blue:75/255.0 alpha:1.0];
+//    self.style.selectedTitleColor = [UIColor colorWithRed:30/255.0 green:0.0/255.0 blue:180/255.0 alpha:1.0];
     self.style.coverColor = [UIColor blueColor];
     
     TestViewController *testCtrl = [[TestViewController alloc] init];

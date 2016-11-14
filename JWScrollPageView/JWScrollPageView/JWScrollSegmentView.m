@@ -426,18 +426,16 @@ static CGFloat const contentSizeOff = 20.0;//scrollView 添加 20 的滚动范�
     // 渐变色
     if (self.segmentStyle.isGradualChangeTitleColor) {
         // 旧的颜色从选中渐变为正常
-        UIColor *oldGradualColor = [UIColor colorWithRed:[self.selectedRGB[0] floatValue] + [self.deltaRGB[0] floatValue]
-                                                   green:[self.selectedRGB[1] floatValue] + [self.deltaRGB[1] floatValue]
-                                                    blue:[self.selectedRGB[2] floatValue] + [self.deltaRGB[2] floatValue]
-                                                   alpha:1.0];
+        oldTagView.textColor = [UIColor colorWithRed:[self.selectedRGB[0] floatValue] + [self.deltaRGB[0] floatValue] * progress
+                                               green:[self.selectedRGB[1] floatValue] + [self.deltaRGB[1] floatValue] * progress
+                                                blue:[self.selectedRGB[2] floatValue] + [self.deltaRGB[2] floatValue] * progress
+                                               alpha:1.0];
         // 选中的标签从 正常渐变为 选中
-        UIColor *currentGradualColor = [UIColor colorWithRed:[self.normalRGB[0] floatValue] + [self.deltaRGB[0] floatValue]
-                                                       green:[self.normalRGB[1] floatValue] + [self.deltaRGB[1] floatValue]
-                                                        blue:[self.normalRGB[2] floatValue] + [self.deltaRGB[2] floatValue]
-                                                       alpha:1.0];
+        currentTagView.textColor = [UIColor colorWithRed:[self.normalRGB[0] floatValue] - [self.deltaRGB[0] floatValue] * progress
+                                                   green:[self.normalRGB[1] floatValue] - [self.deltaRGB[1] floatValue] * progress
+                                                    blue:[self.normalRGB[2] floatValue] - [self.deltaRGB[2] floatValue] * progress
+                                                   alpha:1.0];
         
-        oldTagView.textColor = oldGradualColor;
-        currentTagView.textColor = currentGradualColor;
     }
     // 缩放状态的改变
     if (self.segmentStyle.isScaleTitle) {
