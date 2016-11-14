@@ -134,9 +134,9 @@
 				7ABBEA571DD41F1F00A80DE9 /* JWCollectionView.m */,
 				7ABBEA591DD4256900A80DE9 /* JWContentView.h */,
 				7ABBEA5A1DD4256900A80DE9 /* JWContentView.m */,
-				7CAB3BBB1DD2BF43001DE7C3 /* JWScrollPageViewDelegate.h */,
 				7ABBEA661DD4787600A80DE9 /* JWScrollPageView.h */,
 				7ABBEA671DD4787600A80DE9 /* JWScrollPageView.m */,
+				7CAB3BBB1DD2BF43001DE7C3 /* JWScrollPageViewDelegate.h */,
 			);
 			name = JWScrollPageView;
 			sourceTree = "<group>";

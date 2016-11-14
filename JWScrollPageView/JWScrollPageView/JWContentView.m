@@ -136,8 +136,8 @@ static NSString *const  kContentOssSetOffKey = @"contentOffSet";
             [self.collectionView setupScrollViewShouldBeginPanGesture:^BOOL(JWCollectionView *collectionView, UIPanGestureRecognizer *panGesture) {
                 //获取手势滑动的 X 的距离
                 CGFloat transionX = [panGesture translationInView:panGesture.view].x;
-                // 如果是从屏幕边缘开始滑动，说明是侧滑返回，否则是向上一个标签
-                if (collectionView.contentOffset.x == 0 && transionX > 0) {
+                // 如果是从页面最左边边缘开始滑动，说明是侧滑返回，否则是向上一个标签
+                if (collectionView.contentOffset.x <= 5 && transionX > 0) {
                     // 可以侧滑返回
                     navigation.interactivePopGestureRecognizer.enabled = YES;
                 }
